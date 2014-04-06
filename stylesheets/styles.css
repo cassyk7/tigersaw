@@ -25,7 +25,6 @@ nav, footer{
 	font-family: "garamond",serif;
 	background-color:gray;
 	height:30px;
-	margin: 0px 0px;
 }
 ul#nav li{
 	border-bottom: 1px solid grey;
@@ -52,7 +51,9 @@ body{
 .wrapper{
 	width: 940px;
 	margin: 20px auto 20px auto;
-	
+}
+.section{
+	margin: 0px 5px;
 }
 header{
 	height: 100px;
@@ -65,4 +66,5 @@ footer{
 	font-size: 80%;
 	color: white;
 	padding: 5px 0px 0px 20px;
+	margin-bottom: 0px;
 }
