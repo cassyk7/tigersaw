@@ -27,6 +27,7 @@ ul#nav li{
 	display:inline;
 	padding-right: 8px;
 	text-align: center;
+	vertical-align: middle;
 }
 ul#nav li a{
 	text-decoration: none;
