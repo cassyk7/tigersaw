@@ -1,13 +1,32 @@
-H1{
+h1{
+	text-indent: -499px;
 	text-align: center;
+	color: white;
 	vertical-align:middle;
-	
+	width: 940px;
+	height: 130px;
 	font-family: "garamond",serif;
+}
+h3{
+	text-indent: -499px;
+	text-align: center;
+	color: white;
+	vertical-align:middle;
+	width: 940px;
+	height: 130px;
+	font-family: "garamond",serif;
+	margin: 20px;
 }
 header, footer, nav{
 	display:block;
 }
-
+nav, footer{
+	clear:both;
+	font-family: "garamond",serif;
+	background-color:gray;
+	height:30px;
+	margin: 0px 8px;
+}
 ul#nav li{
 	border-bottom: 1px solid grey;
 	list-style:none;
@@ -19,6 +38,7 @@ ul#nav li{
 ul#nav li a{
 	text-decoration: none;
 	text-align: center;
+	color:white;
 	vertical-align: middle;
 	padding-left: 40px;
 	padding-right: 40px;
@@ -42,9 +62,8 @@ header{
 	background-repeat: no-repeat;
 	margin:20px;
 }
-nav, footer{
-	clear:both;
-	background-color:gray;
-	height:30px;
-	margin: 0px 8px;
+footer{
+	font-size: 80%;
+	color: white;
+	padding: 5px 0px 0px 20px;
 }
