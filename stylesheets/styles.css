@@ -25,14 +25,13 @@ nav, footer{
 	font-family: "garamond",serif;
 	background-color:gray;
 	height:30px;
-	margin: 0px 8px;
+	margin: 0px 0px;
 }
 ul#nav li{
 	border-bottom: 1px solid grey;
 	list-style:none;
 	display:inline;
 	padding-right: 8px;
-	margin: 0px 5px;
 	text-align: center;
 }
 ul#nav li a{
