@@ -37,6 +37,9 @@ ul#nav li a{
 	padding-left: 40px;
 	padding-right: 40px;
 }
+ul#nav li a:HOVER, nav li a.current{
+	color: #000000;
+}
 body{
 	background-image: url("../images/green_cup.jpg");
 	background-position:center;
@@ -48,12 +51,20 @@ body{
 	width: 940px;
 	margin: 20px auto 20px auto;
 }
-section{
+section#needtoknow{
+	display:inline-block;
 	margin: 0px 5px;
-	font-family: "garamond, serif;"
+	font-family: "garamond", serif;
+	width: 659px;
+}
+section#weekly{
+	text-align: center;
+}
+section#contact{
+	text-align: center;
 }
 h4{
-	font-family: "garamond",serif;
+	font-family: "garamond", serif;
 	font-size: 18px;
 	margin: 4px 5px;
 }
@@ -69,4 +80,15 @@ footer{
 	color: white;
 	padding: 5px 0px 0px 20px;
 	margin-bottom: 0px;
+}
+aside{
+	display: inline-block;
+	width: 230px;
+	float:right;
+	padding: 0px 20px 0px 20px;
+}
+aside h2{
+	padding: 20px 0px 10px 0px;
+	color: white;
+	text-align: center;
 }
