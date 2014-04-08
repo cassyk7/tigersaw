@@ -51,7 +51,7 @@ body{
 	width: 940px;
 	margin: 20px auto 20px auto;
 }
-section#needtoknow{
+div#needtoknow{
 	display:inline-block;
 	margin: 0px 5px;
 	font-family: "garamond", serif;
