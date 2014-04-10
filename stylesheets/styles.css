@@ -81,13 +81,13 @@ footer{
 	padding: 5px 0px 0px 20px;
 	margin-bottom: 0px;
 }
-aside{
+div#sidesection{
 	display: inline-block;
 	width: 230px;
 	float:right;
 	padding: 0px 20px 0px 20px;
 }
-aside h2{
+div#sidesection h2{
 	padding: 20px 0px 10px 0px;
 	color: white;
 	text-align: center;
