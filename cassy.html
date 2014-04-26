@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="US-ASCII">
-<link rel="stylesheet" href="stylesheets/login.css">
+
+<!-- <link rel="stylesheet" href="stylesheets/login.css"> -->
 <title>Login</title>
 </head>
 <body>
 
-	<form>
+	<form action="" method="post" onsubmit="return checkform(this);">
   		<label for="login_email">Email</label>
-  		<input type="text" name="login_email" id="login_email">
+  		<input type="email" name="login_email" id="login_email" required="required">
   		<label for="login_password">Password</label>
   		<input type="password" name="login_password" id="login_password">
   		<fieldset>
@@ -18,5 +18,11 @@
   		</fieldset>
 	</form>
 	
+	
+	
+	
+	<script src="javascript/jquery-2.1.0.js"></script>
+  	<script src="javascript/bootstrap.js"></script>
+  	<script src="javascript/my.js"></script>
 </body>
 </html>
